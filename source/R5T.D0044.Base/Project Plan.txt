@@ -1,0 +1,4 @@
+R5T.D0044.Base - Base definitions library for the IStringSerializer<T> service, asynchronous.
+
+Goals
+

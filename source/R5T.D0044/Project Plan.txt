@@ -1,0 +1,4 @@
+R5T.D0044 - IStringSerializer<T> service, asynchronous.
+
+Goals
+

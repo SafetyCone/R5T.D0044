@@ -1,0 +1,4 @@
+R5T.D0044.Default - Default implementations library for the IStringSerializer<T> service, asynchronous.
+
+Goals
+

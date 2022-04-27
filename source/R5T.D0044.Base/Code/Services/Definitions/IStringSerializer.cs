@@ -1,10 +1,13 @@
 ﻿using System;
 using System.Threading.Tasks;
 
+using R5T.T0064;
+
 
 namespace R5T.D0044
 {
-    public interface IStringSerializer<T>
+    [ServiceDefinitionMarker]
+    public interface IStringSerializer<T> : IServiceImplementation
     {
         Task<T> Deserialize(string @string);
 

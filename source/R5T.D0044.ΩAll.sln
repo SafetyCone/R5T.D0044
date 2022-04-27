@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.D0044.Construction", "R
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.D0044.Default", "R5T.D0044.Default\R5T.D0044.Default.csproj", "{16860564-6DCA-4E65-9CD5-678123D14CFB}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{DCFF4744-E2A8-49E6-A79C-0D5EC194DD02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.T0064", "..\..\R5T.T0064\source\R5T.T0064\R5T.T0064.csproj", "{A33AE18A-B968-4291-A0F4-F949AF3E71AA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -72,5 +76,20 @@ Global
 		{16860564-6DCA-4E65-9CD5-678123D14CFB}.Release|x64.Build.0 = Release|Any CPU
 		{16860564-6DCA-4E65-9CD5-678123D14CFB}.Release|x86.ActiveCfg = Release|Any CPU
 		{16860564-6DCA-4E65-9CD5-678123D14CFB}.Release|x86.Build.0 = Release|Any CPU
+		{A33AE18A-B968-4291-A0F4-F949AF3E71AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A33AE18A-B968-4291-A0F4-F949AF3E71AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A33AE18A-B968-4291-A0F4-F949AF3E71AA}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A33AE18A-B968-4291-A0F4-F949AF3E71AA}.Debug|x64.Build.0 = Debug|Any CPU
+		{A33AE18A-B968-4291-A0F4-F949AF3E71AA}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A33AE18A-B968-4291-A0F4-F949AF3E71AA}.Debug|x86.Build.0 = Debug|Any CPU
+		{A33AE18A-B968-4291-A0F4-F949AF3E71AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A33AE18A-B968-4291-A0F4-F949AF3E71AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A33AE18A-B968-4291-A0F4-F949AF3E71AA}.Release|x64.ActiveCfg = Release|Any CPU
+		{A33AE18A-B968-4291-A0F4-F949AF3E71AA}.Release|x64.Build.0 = Release|Any CPU
+		{A33AE18A-B968-4291-A0F4-F949AF3E71AA}.Release|x86.ActiveCfg = Release|Any CPU
+		{A33AE18A-B968-4291-A0F4-F949AF3E71AA}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A33AE18A-B968-4291-A0F4-F949AF3E71AA} = {DCFF4744-E2A8-49E6-A79C-0D5EC194DD02}
 	EndGlobalSection
 EndGlobal
